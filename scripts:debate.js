@@ -1,5 +1,5 @@
-// Countdown timer (basic version)
-let timeLeft = 600; // 10 minutes in seconds
+// 10-minute countdown timer (600 seconds)
+let timeLeft = 600; // Updated from 180 (3 minutes)
 const timerElement = document.querySelector('.timer');
 
 const countdown = setInterval(() => {

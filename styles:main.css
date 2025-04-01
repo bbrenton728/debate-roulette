@@ -1,0 +1,45 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f5f5f5;
+}
+
+header {
+  text-align: center;
+  padding: 2rem;
+  background: #6200ee;
+  color: white;
+}
+
+#join-btn {
+  background: white;
+  color: #6200ee;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.debate-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.timer {
+  font-size: 3rem;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.participants {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user video {
+  width: 300px;
+  height: 200px;
+  background: #ddd;
+}
